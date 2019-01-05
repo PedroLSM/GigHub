@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>GitHub Hub</title>
+        <link rel="shortcut icon" href="img/bolsonaro.jpg">
+        <link rel="stylesheet" href="css/site.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    </head>
+    
+        <body>
+            <div class="container">
+                <header>
+                    <nav>
+                        <ul>
+                            <li> <a href="/index.html">Home</a> </li>
+                            <li> <a href="/contacts.html">Contatos</a> </li>
+                            <li> <a href="/about.html">Sobre</a> </li>
+                        </ul>
+                    </nav>
+                    <div> <h1><img src="img/logo.gif"/></h1> </div>
+                    <div> <p>Este é um site para pesquisar no Github por projetos interessantes</p> </div>
+                </header>
+                
+                <section id="main">
+                    <p>
+                        Nesta <em>amostra de site</em>, nos iremos mostra como listar os projetos do 
+                        <a href="https://www.github.com" target="_blank">GitHub</a> e as <span>informações dos</span> <strong>projetos listados.</strong>
+                        
+                        <form action="http://wilder.azurewebsites.net/echo" method="POST" target="_blank" id="gitHubSearchForm" class="border form">
+                            <label for="name">Pesquisar Frase:</label>
+                            <input type="text" name="searchPhrase" id="name" autocomplete="on">
+                            <br> <br>
+
+                            <input type="checkbox" name="useStar" id="star" checked="checked"> 
+                            <label for="star">Usar Estrela?</label>
+                            <br> <br>
+
+                            <label for="lang">Linguagem:</label>
+                            <select name="langChoice" id="lang">
+                                <option>All</option>
+                                <option>Java</option>
+                                <option selected>C#</option>
+                                <option>Ruby</option>                            
+                            </select>
+                            <br> <br>
+                                
+                            <input type="submit" value="Pesquisar">
+                            <br>
+                        </form>
+                        
+                        <div id="results" class="border">
+                            <div id="testes">Resultado da Pesquisa</div>
+                            <div id="btn"><button id="toggleButton">Ocultar</button></div>
+                            <div id="resultList">Aqui é onde os resultados irão sair... eventualmente.</div>
+                        </div>
+
+                        <!-- Testes 
+                            <div class="miniatura">
+                                <a href="https://www.bolsonaro.com.br/" target="_blank"><img class = "img" src="img/bolsonaro.jpg" alt="bolso" width="200px"></a>
+                                <a href="https://www.cirogomes.com.br/" target="_blank"><img class = "img" src="img/ciro.jpeg" alt="ciro" width="200px"></a>
+                                <a href="http://marina.com.br/" target="_blank"><img class = "img" src="img/marina.jpeg" alt="plantinha" width="200px"></a>
+                            </div>
+                        -->
+
+                    </section>
+
+                <footer>
+                    &copy; 2018, Pedro Lucas - LLC.
+                </footer>
+            </div>
+
+            <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+            <script type="text/javascript" src="js/index.js"></script>
+        </body>
+</html>

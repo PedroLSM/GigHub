@@ -1,0 +1,164 @@
+
+header, footer {
+    padding: 5px;
+    background-color: lightgrey;
+    border: solid 1px black;
+}
+
+header nav {
+    float: right;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 10px;
+    border-radius: 3px;
+    text-align: right;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: azure;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav li a{
+    text-decoration:none;
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav li a:hover{
+    color: red;
+}
+
+#main {
+    border: solid 2px #ccc;
+    color: #202020;
+    margin: 10px 0px 10px 0px;
+    padding: 3px;
+}
+
+#results {
+    padding: 5px;
+    width: 620px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 10px;
+}
+
+#resultList{
+    padding-top: 5px;
+    text-align: left;
+}
+
+#toggleButton{
+    background-color: forestgreen;
+    color: white;
+}
+
+/* 
+.results2 {
+    padding: 5px;
+    width: 590px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+} */
+
+.img {
+    padding-right: 5px; 
+}
+
+.miniatura {
+    position: absolute;
+	left: 40%;
+	top: 36%
+}
+
+.border {
+    border: solid 2px lightsteelblue;
+}
+
+.form {
+    padding: 5px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form label{
+    font-weight: bold;
+}
+
+.form input[type=text], #main select{
+    width: 16w0px;
+    height: 20px;
+}
+
+.form input[type=submit]{
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.container {
+    width: 989px;
+    padding: 10px;
+    margin: 0 auto; 
+    border: dotted black;   
+    background-color: whitesmoke;
+}
+
+.result{
+    border: 1px solid black;
+    margin: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.result a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+
+.result a:hover{
+    font-weight: bold;
+    color: green;
+}
+
+.title{
+    font-weight: bold;
+    padding-bottom: 3px;;
+}
+
+#testes{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 1px;
+    width: 310px;
+    color: maroon;
+    font-weight: bold;
+}
+
+#btn{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
